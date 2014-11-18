@@ -55,4 +55,5 @@ Rails.application.routes.draw do
   #   end
   root :to => "events#index"
   match ':controller(/:action(/:id))(.:format)', :via => :all
+  
 end
